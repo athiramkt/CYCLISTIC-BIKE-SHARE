@@ -424,5 +424,5 @@ Time difference of 1.016667 mins</code></pre>
 <span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a> <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">format</span>(x, <span class="at">scientific =</span> <span class="cn">FALSE</span>))</span></code></pre></div>
 <p align="center">
   <img src="/IMG/1.png">
-
 </p>
+<p>Based on the chart above, the Subscriber group has the highest number of rides during weekdays.</p

@@ -457,19 +457,16 @@ Time difference of 1.016667 mins</code></pre>
 <h3 id="key-findings">Key Findings:</h3>
 <blockquote>
 <ol type="1">
-<li><b>Ridership Patterns Differ Between Customers and Subscribers:</b>Customers tend to ride the most on weekends, while Subscribers make the majority of their trips during the weekdays.</li>
-<li>On average, Subscriber rides shorter than Custumer.</li>
-<li>There is no difference between Custumer and Subscriber in terms of
-the number of trips they make per month. Both Custumer and Subscriber
-have the highest number of trips in the summer months and the least
-number of trips in late winter and early spring.</li>
+<li><b>Ridership Patterns Differ Between Customers and Subscribers:</b> Customers tend to ride the most on weekends, while Subscribers make the majority of their trips during the weekdays.</li>
+<li><b>Subscribers Take Shorter Rides:</b> On average, Subscribers take shorter rides compared to Customers.</li>
+<li><b>Seasonal Trends Are Similar:</b> Both Customers and Subscribers exhibit the highest number of trips during the summer months and the lowest in late winter/early spring. There is no significant difference between the two groups in terms of monthly trip volume.</li>
 </ol>
 </blockquote>
 <h3 id="recommendations">Recommendations</h3>
 <blockquote>
 <ol type="1">
-<li>Target Custumer bike rentals for weekend fun.</li>
-<li>Create a big summer campaign when more people can afford to rent
-bikes.</li>
+<li><b>Target Weekend Rentals for Customers:</b>Given that Customers ride the most on weekends, consider developing marketing campaigns or offerings that cater to their weekend leisure activities and interests.</li>
+<li><b>Focus on Summer Campaigns:</b>Since both Customers and Subscribers show peak ridership in the summer, a targeted summer promotional campaign could be an effective way to drive annual subscriber growth.</li>
+<li><b>Analyze Subscriber Ride Duration:</b> Further investigate why Subscribers take shorter rides on average compared to Customers. This could inform product enhancements or subscription plan adjustments to encourage longer, more frequent trips among Subscribers.</li>
 </ol>
 </blockquote>

@@ -457,8 +457,7 @@ Time difference of 1.016667 mins</code></pre>
 <h3 id="key-findings">Key Findings:</h3>
 <blockquote>
 <ol type="1">
-<li>Custumer rides the most on weekends. In contrast, Subscriber makes
-the most trips during the week.</li>
+<li><b>Ridership Patterns Differ Between Customers and Subscribers:</b>Customers tend to ride the most on weekends, while Subscribers make the majority of their trips during the weekdays.</li>
 <li>On average, Subscriber rides shorter than Custumer.</li>
 <li>There is no difference between Custumer and Subscriber in terms of
 the number of trips they make per month. Both Custumer and Subscriber

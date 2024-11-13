@@ -435,7 +435,7 @@ Time difference of 1.016667 mins</code></pre>
 <span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span><span class="st">"Average ride time of Members and Casual riders Vs. Day of the week"</span>)<span class="sc">+</span></span>
 <span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">format</span>(x, <span class="at">scientific =</span> <span class="cn">FALSE</span>))</span></code></pre></div>
 <p align="center">
-  <img src="/IMG/2.png">̨
+  <img src="https://github.com/Analyst-marketer/Analyst-marketer/blob/c5b03b4e0ce364f7f6b1e68e213e8dd17b1f5b72/Cyclistic%20chart02.png">̨
 </p>
 <p>From the chart above, we can observe that the Customer group had longer ride durations throughout the week, with the highest number of rides on weekends, while Subscribers maintained a steady pace during the weekdays, with their highest number of rides also occurring on weekends.</p>
 <hr>
@@ -449,7 +449,7 @@ Time difference of 1.016667 mins</code></pre>
 <span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">width=</span><span class="fl">0.5</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width=</span><span class="fl">0.5</span>)) <span class="sc">+</span></span>
 <span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">format</span>(x, <span class="at">scientific =</span> <span class="cn">FALSE</span>))</span></code></pre></div>
 <p align="center">
-  <img src="/IMG/3.png">
+  <img src="https://github.com/Analyst-marketer/Analyst-marketer/blob/b94347ffb695abe8dc9f66fea0a895939b024e75/Cyclistic%20chart03.png">
 
 </p>
 <p>The chart above shows that the Subscriber group consistently has a higher number of trips throughout the year.</p>

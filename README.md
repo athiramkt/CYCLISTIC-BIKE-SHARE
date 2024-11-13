@@ -424,7 +424,7 @@ Time difference of 1.016667 mins</code></pre>
 <span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a> <span class="fu">geom_col</span>(<span class="at">width=</span><span class="fl">0.5</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width=</span><span class="fl">0.5</span>))<span class="sc">+</span></span>
 <span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a> <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> <span class="cf">function</span>(x) <span class="fu">format</span>(x, <span class="at">scientific =</span> <span class="cn">FALSE</span>))</span></code></pre></div>
 <p align="center">
-  <img src="/IMG/1.png">
+  <img src="https://github.com/Analyst-marketer/Analyst-marketer/blob/7b758f4dda3e5aefaa6231a9ba000669a3b80ff7/Cyclist%20chart%2001.png">
 </p>
 <p>The bar chart compares total rides between Subscribers and Customers across different days of the week. Subscribers show significantly higher ridership throughout the week, with their peak usage occurring on Tuesday through Thursday (approximately 500,000 rides per day). Their lowest usage is on weekends, particularly Saturday, when rides drop to around 280,000.
 In contrast, Customers demonstrate an inverse pattern. Their ridership peaks on weekends, with the highest numbers on Saturday (about 200,000 rides) and Sunday (approximately 170,000 rides). During weekdays, Customer rides remain relatively stable but lower, averaging around 100,000 rides per day.

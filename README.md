@@ -1,4 +1,3 @@
-
 <html>
   <head></head>
   <body>
@@ -427,7 +426,6 @@ Time difference of 1.016667 mins</code></pre>
   <img src="https://github.com/Analyst-marketer/Analyst-marketer/blob/7b758f4dda3e5aefaa6231a9ba000669a3b80ff7/Cyclist%20chart%2001.png">
 </p>
 <p><li>The bar chart compares total rides between Subscribers and Customers across different days of the week. Subscribers show significantly higher ridership throughout the week, with their peak usage occurring on Tuesday through Thursday (approximately 500,000 rides per day). Their lowest usage is on weekends, particularly Saturday, when rides drop to around 280,000.</li>
-<li>In contrast, Customers demonstrate an inverse pattern. Their ridership peaks on weekends, with the highest numbers on Saturday (about 200,000 rides) and Sunday (approximately 170,000 rides). During weekdays, Customer rides remain relatively stable but lower, averaging around 100,000 rides per day.</li>
 <li>This usage pattern suggests that Subscribers likely use the bike-sharing service primarily for commuting to work, while Customers tend to use it more for recreational purposes during weekends.</li></p
 <hr>
 <div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(plot,<span class="fu">aes</span>(<span class="at">x =</span> day_of_week, <span class="at">y =</span> average_ride_length, <span class="at">fill =</span> member_casual)) <span class="sc">+</span></span>

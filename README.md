@@ -452,7 +452,7 @@ Time difference of 1.016667 mins</code></pre>
   <img src="https://github.com/Analyst-marketer/Analyst-marketer/blob/b94347ffb695abe8dc9f66fea0a895939b024e75/Cyclistic%20chart03.png">
 
 </p>
-<p>The chart above shows that the Subscriber group consistently has a higher number of trips throughout the year.</p>
+<p>The chart shows a clear difference in ride frequency between subscribers and casual users throughout the year. Subscribers consistently take a significantly higher number of rides compared to casual customers. Peaks in ridership are observed during the warmer months from May through September, suggesting that seasonal weather patterns may influence ride frequency, particularly for subscribers.</p>
 <hr>
 <h2 id="act">ACT</h2>
 <p>In the final step of the data analysis process, we will provide three recommendations to increase the number of Subscribers annually. But before that, we'll present three key insights.</p>

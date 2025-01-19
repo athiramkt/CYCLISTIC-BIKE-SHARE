@@ -349,7 +349,7 @@ Rows: 365069 Columns: 12
 <p>Now, I will merge the dataframes into one dataframe.</p>
 <div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>trips <span class="ot">=</span> <span class="fu">bind_rows</span>(q1_2019fixed, q2_2019fixed, q3_2019fixed, q4_2019fixed)</span></code></pre></div>
 <p>The next step is to clean the data.</p>
-<p>We will add columns that list the day, month, day, and year of eachtrip. This will allow us to aggregate trip data for each month, day or year.</p>
+<p>We will add columns that list the date, month, day, and year of eachtrip. This will allow us to aggregate trip data for each month, day or year.</p>
 <div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>trips<span class="sc">$</span>date <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(trips<span class="sc">$</span>started_at) </span>
 <span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>trips<span class="sc">$</span>month <span class="ot">&lt;-</span> <span class="fu">format</span>(<span class="fu">as.Date</span>(trips<span class="sc">$</span>date), <span class="st">"%m"</span>)</span>
 <span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>trips<span class="sc">$</span>day <span class="ot">&lt;-</span> <span class="fu">format</span>(<span class="fu">as.Date</span>(trips<span class="sc">$</span>date), <span class="st">"%d"</span>)</span>
